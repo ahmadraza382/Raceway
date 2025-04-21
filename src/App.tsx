@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./components/ui/Header";
+import Header from "./components/layouts/Header";
 import Home from "./pages/Home";
 import RaceCalendar from "./pages/RaceCalendar";
 import DriverProfile from "./pages/DriverProfile";
 import Downloads from "./pages/Downloads";
 import Media from "./pages/Media";
-import Footer from "./components/ui/Footer";
+import Footer from "./components/layouts/Footer";
 import About from "./pages/About";
 
 export default function App() {

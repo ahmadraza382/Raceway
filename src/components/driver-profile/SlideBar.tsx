@@ -2,7 +2,7 @@ import Heading from "../common/Heading";
 
 const SlideBar = () => {
   return (
-    <aside className="w-64 h-[28rem] px-3 py-5 bg-black rounded-[10px]">
+    <aside className="w-full lg:w-64 h-[28rem] px-3 py-5 bg-black rounded-[10px]">
       <Heading
         level={1}
         text={"Categories"}
