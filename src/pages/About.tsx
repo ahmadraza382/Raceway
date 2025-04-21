@@ -1,5 +1,5 @@
 import Banner from "../components/common/Banner";
-import SlideBar from "../components/slidebar/SlideBar";
+import SlideBar from "../components/layouts/SlideBar";
 
 export default function About() {
   return (
@@ -13,7 +13,7 @@ export default function About() {
         }}
       >
         <div className="arw-container">
-          <div className="bg-black w-[986px] h-[931px] rounded-[10px] flex py-[31px] px-[26px]">
+          <div className="bg-black w-full max-w-[64.625rem] h-full rounded-[10px] flex py-[31px] px-[26px]">
             <SlideBar />
             <div>
               <img src={"/favicon/logo.svg"} alt="" />
@@ -31,10 +31,13 @@ export default function About() {
                 Raceway, Al Forsan International Sports Resort, Dubai Kartdrome,
                 Muscat Speedway and Yas Marina Circuit.
               </p>
+              <div className="w-[7.5rem] h-[4.688rem] bg-[#FE0000]">
+                <img src={"/favicon/about/layer1.svg"} alt="" />
+              </div>
             </div>
           </div>
         </div>
       </div>
     </>
   );
-};
+}

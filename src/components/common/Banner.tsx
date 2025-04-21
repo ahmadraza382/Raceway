@@ -21,7 +21,7 @@ const Banner: React.FC<BannerProps> = ({
 }) => {
   return (
     <section
-      className="bg-contain bg-center lg:h-32 lg:bg-no-repeat"
+      className="bg-contain bg-center lg:bg-no-repeat"
       style={{
         backgroundImage: showBackground ? "url(/image/bgCalender.png)" : "none",
       }}

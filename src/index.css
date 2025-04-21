@@ -8,7 +8,7 @@ body {
 
 @layer base {
   .arw-container {
-    @apply p-4 sm:px-8 xl:px-20 2xl:container 2xl:mx-auto;
+    @apply p-4 sm:px-8 xl:px-28 2xl:container 2xl:mx-auto;
   }
   .border-primary-red {
     @apply border w-full border-[#FE0000];

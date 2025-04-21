@@ -2,7 +2,7 @@ import Heading from "../common/Heading";
 
 const Card = () => {
   return (
-    <div className="relative flex w-[447px] h-[220px] rounded-[10px] bg-[#000000]">
+    <div className="relative flex lg:w-[408px] h-[220px] rounded-[10px] bg-[#000000]">
       <img
         src={"/image/race1.png"}
         alt=""
